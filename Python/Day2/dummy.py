@@ -1,2 +1,2 @@
-for i in range(10):
-    print(f"I Love VS Code {i}")
+for i in range(1000):
+    print("Saya menyesal telah telat datang ke sekolah.")

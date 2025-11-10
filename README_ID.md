@@ -1,29 +1,29 @@
-# My DevOps Journey  
-_From Animal Science to DevOps Engineer_
+# Perjalanan Saya Menuju DevOps Engineer  
+_Dari Sarjana Peternakan ke Dunia Teknologi_
 
-[🇮🇩 Indonesian Version](./README_ID.md)
+[🇬🇧 English Version](./README.md)
 
-This repository documents my journey from an Animal Science graduate into the world of DevOps.  
-I’m building my skills from the ground up — Linux, scripting, automation, containerization, CI/CD, and Infrastructure as Code — with a clear 12-week roadmap.
+Repository ini berisi perjalanan saya berpindah jalur karir dari dunia peternakan menuju DevOps.  
+Saya belajar dari nol: Linux, scripting, automation, container, CI/CD, sampai Infrastruktur sebagai Kode.  
+Semua progres saya dokumentasikan selama **12 minggu belajar terstruktur**.
 
-My goal is simple: **be job-ready as a DevOps Engineer within 3 months.**
+Tujuan utama: **siap kerja sebagai DevOps Engineer dalam 3 bulan.**
 
 ---
 
-## ⚙️ Tools & Environment
-
+## ⚙️ Perangkat & Lingkungan Belajar
 - **Laptop:** Toshiba Satellite A665-S5170  
 - **OS:** Fedora Workstation 43  
 - **Terminal:** Alacritty  
 - **Editor:** Neovim & VSCodium  
-- **License:** MIT License  
+- **Lisensi:** MIT License  
 
-Fedora is my primary environment due to stability and modern tooling, and I keep everything CLI focused.
+Saya menggunakan Fedora karena stabil, modern, dan sangat cocok digunakan sebagai lingkungan DevOps harian.
 
 ---
 
-## 🗂️ Learning Roadmap (12 Weeks)
-Each week focuses on a specific theme:
+## 🗂️ Roadmap Belajar (12 Minggu)
+Setiap minggu memiliki tema yang terfokus:
 
 - **Week 01 — Linux Fundamentals**  
   `/Week01-LinuxFundamentals/`
@@ -37,19 +37,19 @@ Each week focuses on a specific theme:
 - **Week 04 — Git & Collaboration**  
   `/Week04-GitAndCollaboration/`
 
-- **Week 05 — Python for Ops**  
+- **Week 05 — Python untuk Ops**  
   `/Week05-PythonForOps/`
 
-- **Week 06 — Containers & Podman**  
+- **Week 06 — Container & Podman**  
   `/Week06-ContainersAndPodman/`
 
 - **Week 07 — Docker vs Podman (Advanced)**  
   `/Week07-DockerVsPodmanAdvanced/`
 
-- **Week 08 — CI/CD Basics**  
+- **Week 08 — Dasar CI/CD**  
   `/Week08-CICD-Basics/`
 
-- **Week 09 — CI/CD Advanced**  
+- **Week 09 — CI/CD Lanjutan**  
   `/Week09-CICD-Advanced/`
 
 - **Week 10 — Infrastructure as Code**  
@@ -63,19 +63,19 @@ Each week focuses on a specific theme:
 
 ---
 
-## 🎯 Why This Journey?
-Switching fields is not a small step, but it is intentional.  
-I started with no tech background, only determination, structure, and daily practice.
+## 🎯 Alasan Saya Melakukan Ini
+Berpindah bidang bukan keputusan kecil.  
+Saya tidak memiliki background IT, namun saya memiliki komitmen untuk belajar setiap hari, memahami fondasi teknis, dan membangun skill secara bertahap.
 
-This repo becomes:
-- My notebook  
-- My progress tracker  
-- My proof of consistency  
-- My portfolio foundation  
+Repository ini menjadi:
+- Catatan belajar  
+- Bukti konsistensi  
+- Portfolio teknis  
+- Peta perjalanan menuju DevOps  
 
 ---
 
-## 📁 Repository Structure
+## 📁 Struktur Repository
 ```MyDevOpsJourney/
 ├─ Week01-LinuxFundamentals/
 │  ├─ Day01/
@@ -188,9 +188,11 @@ This repo becomes:
     └─ Summary.md
 ```
 
-## 🛡 License
-This project is licensed under the **MIT License**.  
-Feel free to use, remix, or reference anything here.
+---
+
+## 🛡 Lisensi
+Proyek ini berada di bawah **MIT License**.  
+Silakan digunakan, diadaptasi, atau dijadikan referensi.
 
 ---
 

@@ -11,7 +11,7 @@
 | `pwd` | Menampilkan direktori saat ini | — |
 | `cd /path/directory` | Pindah ke direktori tertentu | `cd /etc` |
 | `ls -lah` | Menampilkan isi direktori lengkap dengan detail | `ls -lah /home` |
-| `cat file` | Menampilkan isi file | '`cat /etc/passwd | head`' |
+| `cat file` | Menampilkan isi file | `cat /etc/passwd` |
 | **Konsep** | Absolute vs Relative Path | `/etc/passwd` vs `../folder/file.txt` |
 
 ---

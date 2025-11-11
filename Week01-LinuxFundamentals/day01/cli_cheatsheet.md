@@ -42,8 +42,8 @@ sudo journalctl -p err -b
 
 ## 🧩 Step 4 — Sortir & Unik
 
-| Command | Deskripsi              | Contoh                   |      |       |
-| ------- | ---------------------- | ------------------------ | ---- | ----- |
-| `sort`  | Mengurutkan output     | `sort file.txt`          |      |       |
+| Command | Deskripsi              | Contoh                                  |
+| ------- | ---------------------- | --------------------------------------- |
+| `sort`  | Mengurutkan output     | `sort file.txt`                         |
 | `uniq`  | Menampilkan baris unik | `uniq file.txt`                         |
 

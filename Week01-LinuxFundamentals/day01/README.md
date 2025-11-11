@@ -22,3 +22,5 @@ Beberapa hal penting yang saya pelajari hari ini:
 ---
 
 ## 📂 File yang Dibuat
+- `awk_level1.sh` Berisi awk bagian -F dan limiter
+- `awk_level2.sh` Berisi awk bagian filter kata, filter kolom, header & footer, if

@@ -1,0 +1,11 @@
+journalctl -u NetworkManager | tail -n 10
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.4566] device (proton0): state change: activated -> deactivating (reason 'connection-removed', managed-type: 'full')
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.4612] audit: op="connection-delete" uuid="b5004408-e020-471a-b7ab-c0a20a248c91" name="ProtonVPN CH-FREE#7" pid=7113 uid=1000 result="success"
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.5160] device (proton0): state change: deactivating -> disconnected (reason 'connection-removed', managed-type: 'full')
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.6235] device (proton0): state change: disconnected -> unmanaged (reason 'user-requested', managed-type: 'full')
+Nov 14 10:05:54 Fedora NetworkManager[929]: <warn>  [1763089554.6269] dns-sd-resolved[7b5d8c284e327a83]: send-updates SetLinkDefaultRoute@10 failed: GDBus.Error:org.freedesktop.resolve1.NoSuchLink: Link 10 not known
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.6574] device (ipv6leakintrf0): state change: activated -> deactivating (reason 'connection-removed', managed-type: 'full')
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.6596] audit: op="connection-delete" uuid="33fec014-3b83-4174-ba7a-05871e3c78e7" name="pvpn-killswitch-ipv6" pid=7113 uid=1000 result="success"
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.6649] device (ipv6leakintrf0): state change: deactivating -> disconnected (reason 'connection-removed', managed-type: 'full')
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.6739] policy: set 'AZIZAH' (wlp6s0) as default for IPv6 routing and DNS
+Nov 14 10:05:54 Fedora NetworkManager[929]: <info>  [1763089554.6986] device (ipv6leakintrf0): state change: disconnected -> unmanaged (reason 'user-requested', managed-type: 'full')

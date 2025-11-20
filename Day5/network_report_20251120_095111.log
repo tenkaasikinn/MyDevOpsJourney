@@ -1,0 +1,315 @@
+===== Network Check Report =====
+Date: Thu Nov 20 09:51:11 AM WIB 2025
+
+>>> Ping Test
+--> Pinging 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=34.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=34.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=114 time=35.7 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=114 time=38.7 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 34.191/35.815/38.732/1.767 ms
+
+--> Pinging 1.1.1.1
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=54 time=51.3 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=54 time=40.3 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=54 time=41.4 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=54 time=39.9 ms
+
+--- 1.1.1.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 39.896/43.223/51.296/4.693 ms
+
+--> Pinging google.com
+PING google.com (64.233.170.100) 56(84) bytes of data.
+64 bytes from sg-in-f100.1e100.net (64.233.170.100): icmp_seq=1 ttl=103 time=33.7 ms
+64 bytes from sg-in-f100.1e100.net (64.233.170.100): icmp_seq=2 ttl=103 time=35.0 ms
+64 bytes from sg-in-f100.1e100.net (64.233.170.100): icmp_seq=3 ttl=103 time=34.9 ms
+64 bytes from sg-in-f100.1e100.net (64.233.170.100): icmp_seq=4 ttl=103 time=34.0 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 33.702/34.393/35.005/0.568 ms
+
+>>> IP Addresses & Routes
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+    link/ether 88:ae:1d:e8:2a:d1 brd ff:ff:ff:ff:ff:ff
+    altname enx88ae1de82ad1
+3: wlp6s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 2a:d9:31:21:8e:8c brd ff:ff:ff:ff:ff:ff permaddr 00:23:15:96:af:c8
+    altname wlx00231596afc8
+    inet 192.168.1.14/24 brd 192.168.1.255 scope global dynamic noprefixroute wlp6s0
+       valid_lft 84154sec preferred_lft 84154sec
+    inet6 fe80::43ff:59f8:b531:3216/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+default via 192.168.1.1 dev wlp6s0 proto dhcp src 192.168.1.14 metric 600 
+192.168.1.0/24 dev wlp6s0 proto kernel scope link src 192.168.1.14 metric 600 
+
+>>> NetworkManager DNS & Connection Info
+IP4.DNS[1]:                             1.1.1.1
+IP4.DNS[2]:                             9.9.9.9
+IP6.DNS[1]:                             2606:4700:4700::1111
+IP6.DNS[2]:                             2620:fe::fe
+NAME                UUID                                  TYPE      DEVICE 
+AZIZAH              6650a871-6fae-479b-a2e7-549e30462841  wifi      wlp6s0 
+lo                  fc207e2d-3233-4aa9-9e04-5c011b6b318c  loopback  lo     
+Wired connection 1  c080312c-d5a2-3844-a307-41c61cbcc369  ethernet  --     
+STATE      CONNECTIVITY  WIFI-HW  WIFI     WWAN-HW  WWAN     METERED      
+connected  full          enabled  enabled  missing  enabled  no (guessed) 
+
+>>> Listening Ports (ss -tulnp)
+Netid State  Recv-Q Send-Q                      Local Address:Port  Peer Address:PortProcess                          
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*    users:(("brave",pid=4721,fd=41))
+udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*                                    
+udp   UNCONN 0      0                                 0.0.0.0:5355       0.0.0.0:*                                    
+udp   UNCONN 0      0                            192.168.1.14:3702       0.0.0.0:*    users:(("wsdd",pid=6172,fd=10)) 
+udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*    users:(("wsdd",pid=6172,fd=8))  
+udp   UNCONN 0      0                                 0.0.0.0:53286      0.0.0.0:*    users:(("wsdd",pid=6172,fd=9))  
+udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*                                    
+udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*                                    
+udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*                                    
+udp   UNCONN 0      0      [fe80::43ff:59f8:b531:3216]%wlp6s0:546           [::]:*                                    
+udp   UNCONN 0      0                                    [::]:5353          [::]:*                                    
+udp   UNCONN 0      0                                    [::]:5355          [::]:*                                    
+udp   UNCONN 0      0                                       *:1716             *:*    users:(("gjs",pid=3865,fd=20))  
+udp   UNCONN 0      0                                       *:60799            *:*    users:(("wsdd",pid=6172,fd=12)) 
+udp   UNCONN 0      0      [fe80::43ff:59f8:b531:3216]%wlp6s0:3702          [::]:*    users:(("wsdd",pid=6172,fd=13)) 
+udp   UNCONN 0      0                        [ff02::c]%wlp6s0:3702          [::]:*    users:(("wsdd",pid=6172,fd=11)) 
+udp   UNCONN 0      0                                   [::1]:323           [::]:*                                    
+tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*                                    
+tcp   LISTEN 0      4096                              0.0.0.0:5355       0.0.0.0:*                                    
+tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0:*                                    
+tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*                                    
+tcp   LISTEN 0      4096                                [::1]:631           [::]:*                                    
+tcp   LISTEN 0      10                                      *:1716             *:*    users:(("gjs",pid=3865,fd=19))  
+tcp   LISTEN 0      4096                                 [::]:5355          [::]:*                                    
+
+>>> Active Connections (ss -tuna)
+Netid State     Recv-Q Send-Q                      Local Address:Port     Peer Address:Port
+udp   UNCONN    0      0                             224.0.0.251:5353          0.0.0.0:*   
+udp   UNCONN    0      0                                 0.0.0.0:5353          0.0.0.0:*   
+udp   UNCONN    0      0                                 0.0.0.0:5355          0.0.0.0:*   
+udp   UNCONN    0      0                            192.168.1.14:3702          0.0.0.0:*   
+udp   UNCONN    0      0                         239.255.255.250:3702          0.0.0.0:*   
+udp   UNCONN    0      0                                 0.0.0.0:53286         0.0.0.0:*   
+udp   UNCONN    0      0                              127.0.0.54:53            0.0.0.0:*   
+udp   UNCONN    0      0                           127.0.0.53%lo:53            0.0.0.0:*   
+udp   ESTAB     0      0                     192.168.1.14%wlp6s0:68        192.168.1.1:67  
+udp   UNCONN    0      0                               127.0.0.1:323           0.0.0.0:*   
+udp   UNCONN    0      0      [fe80::43ff:59f8:b531:3216]%wlp6s0:546              [::]:*   
+udp   UNCONN    0      0                                    [::]:5353             [::]:*   
+udp   UNCONN    0      0                                    [::]:5355             [::]:*   
+udp   UNCONN    0      0                                       *:1716                *:*   
+udp   UNCONN    0      0                                       *:60799               *:*   
+udp   UNCONN    0      0      [fe80::43ff:59f8:b531:3216]%wlp6s0:3702             [::]:*   
+udp   UNCONN    0      0                        [ff02::c]%wlp6s0:3702             [::]:*   
+udp   UNCONN    0      0                                   [::1]:323              [::]:*   
+tcp   LISTEN    0      4096                            127.0.0.1:631           0.0.0.0:*   
+tcp   LISTEN    0      4096                              0.0.0.0:5355          0.0.0.0:*   
+tcp   LISTEN    0      4096                           127.0.0.54:53            0.0.0.0:*   
+tcp   LISTEN    0      4096                        127.0.0.53%lo:53            0.0.0.0:*   
+tcp   ESTAB     0      0                            192.168.1.14:52004    151.101.1.91:443 
+tcp   TIME-WAIT 0      0                            192.168.1.14:47338   34.36.137.203:443 
+tcp   ESTAB     0      0                            192.168.1.14:56362   140.82.112.25:443 
+tcp   ESTAB     0      0                            192.168.1.14:40824     172.64.41.4:443 
+tcp   TIME-WAIT 0      0                            192.168.1.14:52482   34.107.243.93:443 
+tcp   ESTAB     0      0                            192.168.1.14:52494   34.107.243.93:443 
+tcp   ESTAB     0      0                            192.168.1.14:33632         1.1.1.1:853 
+tcp   ESTAB     0      0                            192.168.1.14:33648         1.1.1.1:853 
+tcp   ESTAB     0      0                            192.168.1.14:49898   140.82.112.22:443 
+tcp   ESTAB     0      0                            192.168.1.14:40256  172.64.148.235:443 
+tcp   TIME-WAIT 0      0                            192.168.1.14:32964   34.107.221.82:80  
+tcp   TIME-WAIT 0      0                            192.168.1.14:38362      65.8.76.57:443 
+tcp   ESTAB     0      0                            192.168.1.14:49664 185.199.110.133:443 
+tcp   TIME-WAIT 0      0                            192.168.1.14:38810   34.107.221.82:80  
+tcp   ESTAB     0      0                            192.168.1.14:55410 185.199.111.154:443 
+tcp   ESTAB     0      0                            192.168.1.14:51278 185.199.110.153:443 
+tcp   ESTAB     0      0                            192.168.1.14:34538 185.199.111.133:443 
+tcp   ESTAB     0      0                            192.168.1.14:60954  34.160.144.191:443 
+tcp   ESTAB     0      0                            192.168.1.14:47496    151.101.1.91:443 
+tcp   LISTEN    0      4096                                [::1]:631              [::]:*   
+tcp   LISTEN    0      10                                      *:1716                *:*   
+tcp   LISTEN    0      4096                                 [::]:5355             [::]:*   
+
+>>> HTTP(S) Test with curl
+--> Testing https://google.com
+Total: 0.229161s
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host google.com:443 was resolved.
+* IPv6: 2404:6800:4003:c06::66, 2404:6800:4003:c06::64, 2404:6800:4003:c06::8a, 2404:6800:4003:c06::65
+* IPv4: 64.233.170.113, 64.233.170.139, 64.233.170.138, 64.233.170.100, 64.233.170.102, 64.233.170.101
+*   Trying [2404:6800:4003:c06::66]:443...
+* connect to 2404:6800:4003:c06::66 port 443 from fe80::43ff:59f8:b531:3216 port 52776 failed: Permission denied
+*   Trying [2404:6800:4003:c06::64]:443...
+* connect to 2404:6800:4003:c06::64 port 443 from fe80::43ff:59f8:b531:3216 port 53038 failed: Permission denied
+*   Trying [2404:6800:4003:c06::8a]:443...
+*   Trying 64.233.170.113:443...
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [1569 bytes data]
+*  CAfile: /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+*  CApath: none
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [1210 bytes data]
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+{ [1 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [15 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [6360 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519MLKEM768 / id-ecPublicKey
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.google.com
+*  start date: Oct 27 08:33:43 2025 GMT
+*  expire date: Jan 19 08:33:42 2026 GMT
+*  subjectAltName: host "google.com" matched cert's "google.com"
+*  issuer: C=US; O=Google Trust Services; CN=WR2
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+* Connected to google.com (64.233.170.113) port 443
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://google.com/
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: google.com]
+* [HTTP/2] [1] [:path: /]
+* [HTTP/2] [1] [user-agent: curl/8.15.0]
+* [HTTP/2] [1] [accept: */*]
+} [5 bytes data]
+> GET / HTTP/2
+> Host: google.com
+> User-Agent: curl/8.15.0
+> Accept: */*
+> 
+* Request completely sent off
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [283 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [283 bytes data]
+< HTTP/2 301 
+< location: https://www.google.com/
+< content-type: text/html; charset=UTF-8
+< content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-7pimBDBRMMdu4IQ2tVv6eQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+< date: Thu, 20 Nov 2025 02:51:21 GMT
+< expires: Sat, 20 Dec 2025 02:51:21 GMT
+< cache-control: public, max-age=2592000
+< server: gws
+< content-length: 220
+< x-xss-protection: 0
+< x-frame-options: SAMEORIGIN
+< alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+< 
+{ [5 bytes data]
+100   220  100   220    0     0    615      0 --:--:-- --:--:-- --:--:--   614
+* Connection #0 to host google.com left intact
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/">here</A>.
+</BODY></HTML>
+
+--> Testing https://facebook.com
+Total: 0.588026s
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host facebook.com:443 was resolved.
+* IPv6: 2a03:2880:f35d:1:face:b00c:0:25de
+* IPv4: 57.144.186.1
+*   Trying [2a03:2880:f35d:1:face:b00c:0:25de]:443...
+* connect to 2a03:2880:f35d:1:face:b00c:0:25de port 443 from fe80::43ff:59f8:b531:3216 port 46834 failed: Permission denied
+*   Trying 57.144.186.1:443...
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [1571 bytes data]
+*  CAfile: /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+*  CApath: none
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [1210 bytes data]
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+{ [1 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [15 bytes data]
+* TLSv1.3 (IN), TLS handshake, Unknown (25):
+{ [2130 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256 / X25519MLKEM768 / id-ecPublicKey
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Meta Platforms, Inc.; CN=*.facebook.com
+*  start date: Aug 29 00:00:00 2025 GMT
+*  expire date: Nov 27 23:59:59 2025 GMT
+*  subjectAltName: host "facebook.com" matched cert's "facebook.com"
+*  issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+* Connected to facebook.com (57.144.186.1) port 443
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://facebook.com/
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: facebook.com]
+* [HTTP/2] [1] [:path: /]
+* [HTTP/2] [1] [user-agent: curl/8.15.0]
+* [HTTP/2] [1] [accept: */*]
+} [5 bytes data]
+> GET / HTTP/2
+> Host: facebook.com
+> User-Agent: curl/8.15.0
+> Accept: */*
+> 
+* Request completely sent off
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [157 bytes data]
+< HTTP/2 301 
+< location: https://www.facebook.com/
+< strict-transport-security: max-age=15552000; preload
+< content-type: text/html; charset="utf-8"
+< x-fb-debug: s0M+2mciYVM+zOhFc2nGL2X7y5DKLVpB/HaltcTjRK+DSpsarXM4m/QrSY6qFj8low+qYDJJlpmpLb8AD6ezOg==
+< content-length: 0
+< date: Thu, 20 Nov 2025 02:51:21 GMT
+< x-fb-connection-quality: EXCELLENT; q=0.9, rtt=42, rtx=0, c=10, mss=1380, tbw=3822, tp=-1, tpl=-1, uplat=195, ullat=0
+< alt-svc: h3=":443"; ma=86400
+< 
+{ [0 bytes data]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host facebook.com left intact
+

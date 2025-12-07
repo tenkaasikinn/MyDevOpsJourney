@@ -4,7 +4,7 @@ _From Animal Science to DevOps Engineer_
 [🇮🇩 Indonesian Version](./README_ID.md)
 
 This repository documents my journey from an Animal Science graduate into the world of DevOps.  
-I’m building my skills from the ground up — Linux, scripting, automation, containerization, CI/CD, and Infrastructure as Code — with a clear 12-week roadmap.
+I’m building my skills from the ground up — Linux, scripting, automation, containerization, CI/CD, and Infrastructure as Code — with a clear 11-week roadmap.
 
 My goal is simple: **be job-ready as a DevOps Engineer within 3 months.**
 
@@ -34,32 +34,29 @@ Each week focuses on a specific theme:
 - **Week 03 — Bash Scripting**  
   `/Week03-BashScripting/`
 
-- **Week 04 — Git & Collaboration**  
-  `/Week04-GitAndCollaboration/`
+- **Week 04 — Python for Ops**  
+  `/Week04-PythonForOps/`
 
-- **Week 05 — Python for Ops**  
-  `/Week05-PythonForOps/`
+- **Week 05 — Containers & Podman**  
+  `/Week05-ContainersAndPodman/`
 
-- **Week 06 — Containers & Podman**  
-  `/Week06-ContainersAndPodman/`
+- **Week 06 — Docker vs Podman (Advanced)**  
+  `/Week06-DockerVsPodmanAdvanced/`
 
-- **Week 07 — Docker vs Podman (Advanced)**  
-  `/Week07-DockerVsPodmanAdvanced/`
+- **Week 07 — CI/CD Basics**  
+  `/Week07-CICD-Basics/`
 
-- **Week 08 — CI/CD Basics**  
-  `/Week08-CICD-Basics/`
+- **Week 08 — CI/CD Advanced**  
+  `/Week08-CICD-Advanced/`
 
-- **Week 09 — CI/CD Advanced**  
-  `/Week09-CICD-Advanced/`
+- **Week 09 — Infrastructure as Code**  
+  `/Week09-InfrastructureAsCode/`
 
-- **Week 10 — Infrastructure as Code**  
-  `/Week10-InfrastructureAsCode/`
+- **Week 10 — Monitoring & Logging**  
+  `/Week10-MonitoringLogging/`
 
-- **Week 11 — Monitoring & Logging**  
-  `/Week11-MonitoringLogging/`
-
-- **Week 12 — Final Projects**  
-  `/Week12-FinalProjects/`
+- **Week 11 — Final Projects**  
+  `/Week11-FinalProjects/`
 
 ---
 
@@ -104,7 +101,7 @@ This repo becomes:
 │  ├─ Day18/
 │  └─ Summary.md
 │
-├─ Week04-GitAndCollaboration/
+├─ Week04-PythonForOps/
 │  ├─ Day19/
 │  ├─ Day20/
 │  ├─ Day21/
@@ -113,7 +110,7 @@ This repo becomes:
 │  ├─ Day24/
 │  └─ Summary.md
 │
-├─ Week05-PythonForOps/
+├─ Week05-ContainersAndPodman/
 │  ├─ Day25/
 │  ├─ Day26/
 │  ├─ Day27/
@@ -122,7 +119,7 @@ This repo becomes:
 │  ├─ Day30/
 │  └─ Summary.md
 │
-├─ Week06-ContainersAndPodman/
+├─ Week06-DockerVsPodmanAdvanced/
 │  ├─ Day31/
 │  ├─ Day32/
 │  ├─ Day33/
@@ -131,7 +128,7 @@ This repo becomes:
 │  ├─ Day36/
 │  └─ Summary.md
 │
-├─ Week07-DockerVsPodmanAdvanced/
+├─ Week07-CICD-Basics/
 │  ├─ Day37/
 │  ├─ Day38/
 │  ├─ Day39/
@@ -140,7 +137,7 @@ This repo becomes:
 │  ├─ Day42/
 │  └─ Summary.md
 │
-├─ Week08-CICD-Basics/
+├─ Week08-CICD-Advanced/
 │  ├─ Day43/
 │  ├─ Day44/
 │  ├─ Day45/
@@ -149,7 +146,7 @@ This repo becomes:
 │  ├─ Day48/
 │  └─ Summary.md
 │
-├─ Week09-CICD-Advanced/
+├─ Week09-InfrastructureAsCode/
 │  ├─ Day49/
 │  ├─ Day50/
 │  ├─ Day51/
@@ -158,7 +155,7 @@ This repo becomes:
 │  ├─ Day54/
 │  └─ Summary.md
 │
-├─ Week10-InfrastructureAsCode/
+├─ Week10-MonitoringLogging/
 │  ├─ Day55/
 │  ├─ Day56/
 │  ├─ Day57/
@@ -167,25 +164,14 @@ This repo becomes:
 │  ├─ Day60/
 │  └─ Summary.md
 │
-├─ Week11-MonitoringLogging/
-│  ├─ Day61/
-│  ├─ Day62/
-│  ├─ Day63/
-│  ├─ Day64/
-│  ├─ Day65/
-│  ├─ Day66/
-│  └─ Summary.md
-│
-└─ Week12-FinalProjects/
-    ├─ Day67/
-    ├─ Day68/
-    ├─ Day69/
-    ├─ Day70/
-    ├─ Day71/
-    ├─ Day72/
-    ├─ Project01/
-    ├─ Project02/
-    └─ Summary.md
+├─ Week11- Week12-FinalProjects/
+   ├─ Day61/
+   ├─ Day62/
+   ├─ Day63/
+   ├─ Day64/
+   ├─ Day65/
+   ├─ Day66/
+   └─ Summary.md
 ```
 
 ## 🛡 License
@@ -195,4 +181,4 @@ Feel free to use, remix, or reference anything here.
 ---
 
 ## 📅 Last Updated
-2025-11-20
+2025-12-07

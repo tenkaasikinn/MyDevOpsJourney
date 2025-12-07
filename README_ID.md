@@ -5,7 +5,7 @@ _Dari Sarjana Peternakan ke Dunia Teknologi_
 
 Repository ini berisi perjalanan saya berpindah jalur karir dari dunia peternakan menuju DevOps.  
 Saya belajar dari nol: Linux, scripting, automation, container, CI/CD, sampai Infrastruktur sebagai Kode.  
-Semua progres saya dokumentasikan selama **12 minggu belajar terstruktur**.
+Semua progres saya dokumentasikan selama **11 minggu belajar terstruktur**.
 
 Tujuan utama: **siap kerja sebagai DevOps Engineer dalam 3 bulan.**
 
@@ -34,32 +34,29 @@ Setiap minggu memiliki tema yang terfokus:
 - **Week 03 — Bash Scripting**  
   `/Week03-BashScripting/`
 
-- **Week 04 — Git & Collaboration**  
-  `/Week04-GitAndCollaboration/`
+- **Week 04 — Python for Ops**  
+  `/Week04-PythonForOps/`
 
-- **Week 05 — Python untuk Ops**  
-  `/Week05-PythonForOps/`
+- **Week 05 — Containers & Podman**  
+  `/Week05-ContainersAndPodman/`
 
-- **Week 06 — Container & Podman**  
-  `/Week06-ContainersAndPodman/`
+- **Week 06 — Docker vs Podman (Advanced)**  
+  `/Week06-DockerVsPodmanAdvanced/`
 
-- **Week 07 — Docker vs Podman (Advanced)**  
-  `/Week07-DockerVsPodmanAdvanced/`
+- **Week 07 — CI/CD Basics**  
+  `/Week07-CICD-Basics/`
 
-- **Week 08 — Dasar CI/CD**  
-  `/Week08-CICD-Basics/`
+- **Week 08 — CI/CD Advanced**  
+  `/Week08-CICD-Advanced/`
 
-- **Week 09 — CI/CD Lanjutan**  
-  `/Week09-CICD-Advanced/`
+- **Week 09 — Infrastructure as Code**  
+  `/Week09-InfrastructureAsCode/`
 
-- **Week 10 — Infrastructure as Code**  
-  `/Week10-InfrastructureAsCode/`
+- **Week 10 — Monitoring & Logging**  
+  `/Week10-MonitoringLogging/`
 
-- **Week 11 — Monitoring & Logging**  
-  `/Week11-MonitoringLogging/`
-
-- **Week 12 — Final Projects**  
-  `/Week12-FinalProjects/`
+- **Week 11 — Final Projects**  
+  `/Week11-FinalProjects/`
 
 ---
 
@@ -104,7 +101,7 @@ Repository ini menjadi:
 │  ├─ Day18/
 │  └─ Summary.md
 │
-├─ Week04-GitAndCollaboration/
+├─ Week04-PythonForOps/
 │  ├─ Day19/
 │  ├─ Day20/
 │  ├─ Day21/
@@ -113,7 +110,7 @@ Repository ini menjadi:
 │  ├─ Day24/
 │  └─ Summary.md
 │
-├─ Week05-PythonForOps/
+├─ Week05-ContainersAndPodman/
 │  ├─ Day25/
 │  ├─ Day26/
 │  ├─ Day27/
@@ -122,7 +119,7 @@ Repository ini menjadi:
 │  ├─ Day30/
 │  └─ Summary.md
 │
-├─ Week06-ContainersAndPodman/
+├─ Week06-DockerVsPodmanAdvanced/
 │  ├─ Day31/
 │  ├─ Day32/
 │  ├─ Day33/
@@ -131,7 +128,7 @@ Repository ini menjadi:
 │  ├─ Day36/
 │  └─ Summary.md
 │
-├─ Week07-DockerVsPodmanAdvanced/
+├─ Week07-CICD-Basics/
 │  ├─ Day37/
 │  ├─ Day38/
 │  ├─ Day39/
@@ -140,7 +137,7 @@ Repository ini menjadi:
 │  ├─ Day42/
 │  └─ Summary.md
 │
-├─ Week08-CICD-Basics/
+├─ Week08-CICD-Advanced/
 │  ├─ Day43/
 │  ├─ Day44/
 │  ├─ Day45/
@@ -149,7 +146,7 @@ Repository ini menjadi:
 │  ├─ Day48/
 │  └─ Summary.md
 │
-├─ Week09-CICD-Advanced/
+├─ Week09-InfrastructureAsCode/
 │  ├─ Day49/
 │  ├─ Day50/
 │  ├─ Day51/
@@ -158,7 +155,7 @@ Repository ini menjadi:
 │  ├─ Day54/
 │  └─ Summary.md
 │
-├─ Week10-InfrastructureAsCode/
+├─ Week10-MonitoringLogging/
 │  ├─ Day55/
 │  ├─ Day56/
 │  ├─ Day57/
@@ -167,25 +164,14 @@ Repository ini menjadi:
 │  ├─ Day60/
 │  └─ Summary.md
 │
-├─ Week11-MonitoringLogging/
-│  ├─ Day61/
-│  ├─ Day62/
-│  ├─ Day63/
-│  ├─ Day64/
-│  ├─ Day65/
-│  ├─ Day66/
-│  └─ Summary.md
-│
-└─ Week12-FinalProjects/
-    ├─ Day67/
-    ├─ Day68/
-    ├─ Day69/
-    ├─ Day70/
-    ├─ Day71/
-    ├─ Day72/
-    ├─ Project01/
-    ├─ Project02/
-    └─ Summary.md
+|─ Week11- Week12-FinalProjects/
+   ├─ Day61/
+   ├─ Day62/
+   ├─ Day63/
+   ├─ Day64/
+   ├─ Day65/
+   ├─ Day66/
+   └─ Summary.md
 ```
 
 ---
@@ -197,4 +183,4 @@ Silakan digunakan, diadaptasi, atau dijadikan referensi.
 ---
 
 ## 📅 Last Updated
-2025-11-20
+2025-12-07

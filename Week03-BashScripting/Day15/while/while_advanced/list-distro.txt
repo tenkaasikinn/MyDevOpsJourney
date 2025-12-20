@@ -1,0 +1,9 @@
+Linux Mint
+Zorin
+Garuda
+Manjaro
+Arch
+openSUSE Tumbleweed
+Fedora
+NixOS
+Fedora

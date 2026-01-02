@@ -1,0 +1,3 @@
+[ERROR] Cpu kena
+[WARNING] Memory hampir penuh
+[OK] Disk masih banyak
